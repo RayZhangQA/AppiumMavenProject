@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.generalStore.TC2_AddingProducts">
+      <class name="testCases.generalStore.TC1_FormValidation">
         <methods>
-          <include name="addingProducts"/>
+          <include name="toastMessageValidation"/>
+          <include name="formValidation"/>
         </methods>
-      </class> <!-- testCases.generalStore.TC2_AddingProducts -->
+      </class> <!-- testCases.generalStore.TC1_FormValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
